@@ -1,0 +1,418 @@
+
+ [ 
+  {
+    "id": 1,
+    "picture": "https://example.com/chef1.jpg",
+    "country": "France",
+    "yearsOfExperience": 5,
+    "numberOfRecipes": 100,
+    "likes": 5000,
+    "description": "French cuisine expert with a passion for bold flavors.",
+    "rating": 4.7,
+"bannerImage": "https://example.com/chef1-banner.jpg",
+    "recipes": [
+      {
+        "name": "Beef Bourguignon",
+        "image": "https://example.com/beef-bourguignon.jpg",
+        "ingredients": ["beef", "red wine", "onion", "carrot", "garlic"],
+        "cookingMethod": "Slow-cook beef in red wine with onion, carrot, and garlic until tender. Serve hot with mashed potatoes.",
+        "rating": 4.8
+      },
+      {
+        "name": "Quiche Lorraine",
+        "image": "https://example.com/quiche-lorraine.jpg",
+        "ingredients": ["pie crust", "bacon", "cheese", "eggs", "cream"],
+        "cookingMethod": "Bake pie crust with bacon and cheese filling. Whisk eggs and cream together and pour over the filling. Bake until golden brown.",
+        "rating": 4.6
+      },
+      {
+        "name": "Ratatouille",
+        "image": "https://example.com/ratatouille.jpg",
+        "ingredients": ["eggplant", "zucchini", "tomato", "onion", "garlic"],
+        "cookingMethod": "Sautee vegetables with garlic and onion until soft. Serve hot as a side dish or a main course.",
+        "rating": 4.5
+      },
+      {
+        "name": "Croissant",
+        "image": "https://example.com/croissant.jpg",
+        "ingredients": ["flour", "butter", "milk", "sugar", "yeast"],
+        "cookingMethod": "Mix ingredients together and fold with butter. Chill overnight and bake in the morning until golden brown.",
+        "rating": 4.9
+      }
+    ]
+  }
+ 
+  ,{
+  "id": 2,
+  "picture": "https://example.com/chef2.jpg",
+  "country": "Italy",
+  "yearsOfExperience": 10,
+  "numberOfRecipes": 75,
+  "likes": 3500,
+  "description": "Chef specializing in authentic Italian cuisine",
+  "rating": 4.3,
+"bannerImage": "https://example.com/chef2-banner.jpg",
+  "recipes": [
+    {
+      "name": "Margherita Pizza",
+      "image": "https://example.com/margherita-pizza.jpg",
+      "ingredients": [
+        "pizza dough",
+        "tomato sauce",
+        "mozzarella cheese",
+        "fresh basil"
+      ],
+      "cookingMethod": "Baked in a wood-fired oven until the crust is crispy and the cheese is melted and bubbly",
+      "rating": 4.5
+    },
+    {
+      "name": "Pasta Carbonara",
+      "image": "https://example.com/pasta-carbonara.jpg",
+      "ingredients": [
+        "spaghetti",
+        "pancetta",
+        "eggs",
+        "Parmesan cheese",
+        "black pepper"
+      ],
+      "cookingMethod": "Tossed with a sauce made from pancetta, eggs, Parmesan cheese, and black pepper",
+      "rating": 4.4
+    },
+    {
+      "name": "Osso Buco",
+      "image": "https://example.com/osso-buco.jpg",
+      "ingredients": [
+        "veal shanks",
+        "carrots",
+        "onion",
+        "celery",
+        "tomato paste",
+        "white wine",
+        "beef broth",
+        "garlic",
+        "rosemary",
+        "thyme"
+      ],
+      "cookingMethod": "Slowly braised in a mixture of white wine, beef broth, tomato paste, garlic, rosemary, and thyme until tender",
+      "rating": 4.6
+    },
+    {
+      "name": "Tiramisu",
+      "image": "https://example.com/tiramisu.jpg",
+      "ingredients": [
+        "ladyfingers",
+        "espresso",
+        "Marsala wine",
+        "mascarpone cheese",
+        "heavy cream",
+        "cocoa powder"
+      ],
+      "cookingMethod": "Layered with a mixture of espresso and Marsala wine, and a creamy filling made from mascarpone cheese and heavy cream, and topped with cocoa powder",
+      "rating": 4.2
+    }
+  ]
+}
+,{
+  "id": 3,
+  "picture": "https://example.com/chef3.jpg",
+  "country": "Mexico",
+  "yearsOfExperience": 8,
+  "numberOfRecipes": 60,
+  "likes": 5000,
+  "description": "Expert in traditional Mexican dishes with a modern twist",
+  "rating": 4.8,
+
+   "bannerImage": "https://example.com/chef3-banner.jpg",
+  "recipes": [
+    {
+      "name": "Tacos al Pastor",
+      "image": "https://example.com/tacos-al-pastor.jpg",
+      "ingredients": [
+        "pork shoulder",
+        "achiote paste",
+        "pineapple",
+        "onion",
+        "cilantro",
+        "tortillas"
+      ],
+      "cookingMethod": "Marinated in a blend of achiote paste and pineapple, then grilled and served with onion, cilantro, and tortillas",
+      "rating": 4.9
+    },
+    {
+      "name": "Chiles Rellenos",
+      "image": "https://example.com/chiles-rellenos.jpg",
+      "ingredients": [
+        "poblano peppers",
+        "ground beef",
+        "onion",
+        "garlic",
+        "tomatoes",
+        "eggs",
+        "flour",
+        "oil"
+      ],
+      "cookingMethod": "Stuffed with a mixture of ground beef, onion, garlic, and tomatoes, then coated in flour and eggs and fried until golden brown",
+      "rating": 4.7
+    },
+    {
+      "name": "Guacamole",
+      "image": "https://example.com/guacamole.jpg",
+      "ingredients": [
+        "avocado",
+        "red onion",
+        "tomatoes",
+        "jalapeno",
+        "lime juice",
+        "salt"
+      ],
+      "cookingMethod": "Mashed together with a fork and seasoned with lime juice and salt to taste",
+      "rating": 4.6
+    },
+    {
+      "name": "Enchiladas",
+      "image": "https://example.com/enchiladas.jpg",
+      "ingredients": [
+        "corn tortillas",
+        "shredded chicken",
+        "onion",
+        "garlic",
+        "chili powder",
+        "tomato sauce",
+        "cheddar cheese",
+        "sour cream"
+      ],
+      "cookingMethod": "Rolled around a filling of shredded chicken, onion, garlic, and chili powder, then topped with a tomato sauce and cheddar cheese, and baked until bubbly",
+      "rating": 4.8
+    }
+  ]
+}
+,{
+  "id": 4,
+  "picture": "https://example.com/chef4.jpg",
+  "country": "Japan",
+  "yearsOfExperience": 12,
+  "numberOfRecipes": 80,
+  "likes": 7000,
+  "description": "Specializes in sushi and other traditional Japanese dishes",
+  "rating": 4.9,
+
+
+
+   "bannerImage": "https://example.com/chef4-banner.jpg",
+  "recipes": [
+    {
+      "name": "Sushi Rolls",
+      "image": "https://example.com/sushi-rolls.jpg",
+      "ingredients": [
+        "sushi rice",
+        "nori",
+        "tuna",
+        "salmon",
+        "avocado",
+        "cucumber",
+        "wasabi",
+        "soy sauce"
+      ],
+      "cookingMethod": "Layered with sushi rice and various fillings, then rolled and sliced into bite-sized pieces",
+      "rating": 4.9
+    },
+    {
+      "name": "Miso Soup",
+      "image": "https://example.com/miso-soup.jpg",
+      "ingredients": [
+        "dashi stock",
+        "miso paste",
+        "tofu",
+        "scallions",
+        "seaweed"
+      ],
+      "cookingMethod": "Simmered with dashi stock and various ingredients, then seasoned with miso paste and garnished with scallions and seaweed",
+      "rating": 4.7
+    },
+    {
+      "name": "Tempura",
+      "image": "https://example.com/tempura.jpg",
+      "ingredients": [
+        "shrimp",
+        "assorted vegetables (e.g. sweet potato, zucchini, broccoli)",
+        "flour",
+        "cornstarch",
+        "egg",
+        "ice water",
+        "oil"
+      ],
+      "cookingMethod": "Battered with a mixture of flour, cornstarch, egg, and ice water, then deep-fried until crispy and golden brown",
+      "rating": 4.8
+    },
+    {
+      "name": "Teriyaki Chicken",
+      "image": "https://example.com/teriyaki-chicken.jpg",
+      "ingredients": [
+        "chicken thighs",
+        "soy sauce",
+        "mirin",
+        "sake",
+        "sugar",
+        "garlic",
+        "ginger"
+      ],
+      "cookingMethod": "Marinated in a sweet and savory mixture of soy sauce, mirin, sake, sugar, garlic, and ginger, then grilled or broiled until cooked through and glazed with the remaining marinade",
+      "rating": 4.9
+    }
+  ]
+}
+,{
+  "id": 5,
+  "picture": "https://example.com/chef5.jpg",
+  "country": "Mexico",
+  "yearsOfExperience": 8,
+  "numberOfRecipes": 50,
+  "likes": 4500,
+  "description": "Expert in authentic Mexican cuisine with a modern twist",
+  "rating": 4.8,
+
+ "bannerImage": "https://example.com/chef5-banner.jpg",
+  "recipes": [
+    {
+      "name": "Tacos al Pastor",
+      "image": "https://example.com/tacos-al-pastor.jpg",
+      "ingredients": [
+        "pork shoulder",
+        "achiote paste",
+        "pineapple",
+        "onion",
+        "cilantro",
+        "lime",
+        "corn tortillas"
+      ],
+      "cookingMethod": "Marinated in a mixture of achiote paste and other seasonings, then roasted on a vertical spit with pineapple and onion until crispy and tender. Served on warm tortillas with cilantro and a squeeze of lime.",
+      "rating": 4.9
+    },
+    {
+      "name": "Guacamole",
+      "image": "https://example.com/guacamole.jpg",
+      "ingredients": [
+        "avocado",
+        "tomato",
+        "red onion",
+        "jalapeno",
+        "lime",
+        "salt"
+      ],
+      "cookingMethod": "Mashed avocado mixed with diced tomato, red onion, jalapeno, lime juice, and salt to taste",
+      "rating": 4.7
+    },
+    {
+      "name": "Chiles Rellenos",
+      "image": "https://example.com/chiles-rellenos.jpg",
+      "ingredients": [
+        "poblano peppers",
+        "ground beef",
+        "diced tomatoes",
+        "onion",
+        "garlic",
+        "eggs",
+        "flour",
+        "oil"
+      ],
+      "cookingMethod": "Roasted poblano peppers stuffed with seasoned ground beef and diced tomatoes, then dipped in a light batter made with eggs and flour and deep-fried until golden brown",
+      "rating": 4.8
+    },
+    {
+      "name": "Mole Sauce",
+      "image": "https://example.com/mole-sauce.jpg",
+      "ingredients": [
+        "dried chiles (e.g. ancho, pasilla, mulato)",
+        "tomatoes",
+        "onion",
+        "garlic",
+        "almonds",
+        "raisins",
+        "cinnamon",
+        "cumin",
+        "coriander",
+        "chicken stock",
+        "dark chocolate"
+      ],
+      "cookingMethod": "Toasted dried chiles and other ingredients are blended together with chicken stock and simmered until thick and flavorful. Dark chocolate is added for a touch of sweetness and richness.",
+      "rating": 4.9
+    }
+  ]
+}
+,{
+  "id": 6,
+  "picture": "https://example.com/chef6.jpg",
+  "country": "Japan",
+  "yearsOfExperience": 12,
+  "numberOfRecipes": 60,
+  "likes": 6000,
+  "description": "Master of Japanese cuisine, specializing in sushi and sashimi",
+  "rating": 4.9,
+
+"bannerImage": "https://example.com/chef6-banner.jpg",
+  "recipes": [
+    {
+      "name": "Sushi Rolls",
+      "image": "https://example.com/sushi-rolls.jpg",
+      "ingredients": [
+        "sushi rice",
+        "nori",
+        "sashimi-grade fish (e.g. tuna, salmon, yellowtail)",
+        "avocado",
+        "cucumber",
+        "wasabi",
+        "soy sauce",
+        "pickled ginger"
+      ],
+      "cookingMethod": "Sushi rice is seasoned with vinegar, sugar, and salt, then spread on a sheet of nori. Sashimi-grade fish, sliced avocado, and cucumber are added, then rolled tightly and sliced into bite-sized pieces. Served with wasabi, soy sauce, and pickled ginger.",
+      "rating": 4.9
+    },
+    {
+      "name": "Tempura",
+      "image": "https://example.com/tempura.jpg",
+      "ingredients": [
+        "shrimp",
+        "vegetables (e.g. sweet potato, onion, bell pepper, asparagus)",
+        "flour",
+        "cornstarch",
+        "baking powder",
+        "ice water",
+        "oil"
+      ],
+      "cookingMethod": "Shrimp and vegetables are coated in a batter made with flour, cornstarch, baking powder, and ice water, then deep-fried until crispy and golden brown. Served with dipping sauce.",
+      "rating": 4.7
+    },
+    {
+      "name": "Miso Soup",
+      "image": "https://example.com/miso-soup.jpg",
+      "ingredients": [
+        "dashi (Japanese soup stock)",
+        "miso paste",
+        "tofu",
+        "seaweed",
+        "scallions"
+      ],
+      "cookingMethod": "Dashi is combined with miso paste, then heated until smooth. Tofu, seaweed, and scallions are added, then simmered until hot and flavorful.",
+      "rating": 4.8
+    },
+    {
+      "name": "Teriyaki Chicken",
+      "image": "https://example.com/teriyaki-chicken.jpg",
+      "ingredients": [
+        "chicken thighs",
+        "soy sauce",
+        "sake",
+        "mirin",
+        "sugar",
+        "garlic",
+        "ginger",
+        "cornstarch",
+        "oil"
+      ],
+      "cookingMethod": "Chicken thighs are marinated in a mixture of soy sauce, sake, mirin, sugar, garlic, and ginger, then pan-fried until browned and cooked through. The marinade is reduced and thickened with cornstarch to make a glaze, which is brushed onto the chicken.",
+      "rating": 4.9
+    }
+  ]
+}
+]
+
