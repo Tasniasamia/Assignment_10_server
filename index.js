@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 const port = 7000
 var cors = require('cors')
-const chef=require('/chef.json')
-const receipe=require('/receipie.json')
+const chef=require('./chef.json')
+const receipe=require('./receipie.json')
 app.use(cors());
 
 
