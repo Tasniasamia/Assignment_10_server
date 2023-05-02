@@ -1,1 +1,62 @@
-[  {    "chef_id": 1,    "chef_picture": "https://example.com/chef1.jpg",    "years_of_experience": 10,    "number_of_experience": 3,    "likes": 500,    "unic_id": "c1x7r5"  },  {    "chef_id": 2,    "chef_picture": "https://example.com/chef2.jpg",    "years_of_experience": 5,    "number_of_experience": 2,    "likes": 250,    "unic_id": "b2y9s2"  },  {    "chef_id": 3,    "chef_picture": "https://example.com/chef3.jpg",    "years_of_experience": 8,    "number_of_experience": 4,    "likes": 300,    "unic_id": "a3z6t8"  },  {    "chef_id": 4,    "chef_picture": "https://example.com/chef4.jpg",    "years_of_experience": 15,    "number_of_experience": 6,    "likes": 800,    "unic_id": "d4w5u1"  },  {    "chef_id": 5,    "chef_picture": "https://example.com/chef5.jpg",    "years_of_experience": 12,    "number_of_experience": 5,    "likes": 600,    "unic_id": "f5v3x9"  },  {    "chef_id": 6,    "chef_picture": "https://example.com/chef6.jpg",    "years_of_experience": 3,    "number_of_experience": 1,    "likes": 100,    "unic_id": "e6u2y4"  }]
+[
+  {
+    "id": 1,
+    "chef_picture": "https://example.com/chef1.jpg",
+    "years_of_experience": 10,
+    "number_of_experience": 3,
+    "likes": 500,
+    "unic_id": "c1",
+    "country": "France",
+    "chef_name": "Jean-Pierre"
+  },
+  {
+    "id": 2,
+    "chef_picture": "https://example.com/chef2.jpg",
+    "years_of_experience": 8,
+    "number_of_experience": 2,
+    "likes": 400,
+    "unic_id": "c2",
+    "country": "Italy",
+    "chef_name": "Maria"
+  },
+  {
+    "id": 3,
+    "chef_picture": "https://example.com/chef3.jpg",
+    "years_of_experience": 5,
+    "number_of_experience": 1,
+    "likes": 300,
+    "unic_id": "c3",
+    "country": "Mexico",
+    "chef_name": "Carlos"
+  },
+  {
+    "id": 4,
+    "chef_picture": "https://example.com/chef4.jpg",
+    "years_of_experience": 12,
+    "number_of_experience": 4,
+    "likes": 600,
+    "unic_id": "c4",
+    "country": "Japan",
+    "chef_name": "Takashi"
+  },
+  {
+    "id": 5,
+    "chef_picture": "https://example.com/chef5.jpg",
+    "years_of_experience": 7,
+    "number_of_experience": 2,
+    "likes": 350,
+    "unic_id": "c5",
+    "country": "Spain",
+    "chef_name": "Pablo"
+  },
+  {
+    "id": 6,
+    "chef_picture": "https://example.com/chef6.jpg",
+    "years_of_experience": 15,
+    "number_of_experience": 5,
+    "likes": 700,
+    "unic_id": "c6",
+    "country": "United States",
+    "chef_name": "Emily"
+  }
+]

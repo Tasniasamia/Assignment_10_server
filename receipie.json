@@ -3,6 +3,7 @@
   {
     "id": 1,
     "picture": "https://example.com/chef1.jpg",
+    "chef_name": "Jean-Pierre",
     "country": "France",
     "yearsOfExperience": 5,
     "numberOfRecipes": 100,
@@ -45,7 +46,8 @@
   ,{
   "id": 2,
   "picture": "https://example.com/chef2.jpg",
-  "country": "Italy",
+  "chef_name": "Maria",
+    "country": "Italy",
   "yearsOfExperience": 10,
   "numberOfRecipes": 75,
   "likes": 3500,
@@ -115,7 +117,8 @@
 ,{
   "id": 3,
   "picture": "https://example.com/chef3.jpg",
-  "country": "Mexico",
+  "chef_name": "Carlos",
+    "country": "Mexico",
   "yearsOfExperience": 8,
   "numberOfRecipes": 60,
   "likes": 5000,
@@ -189,6 +192,7 @@
 ,{
   "id": 4,
   "picture": "https://example.com/chef4.jpg",
+  "chef_name": "Takashi",
   "country": "Japan",
   "yearsOfExperience": 12,
   "numberOfRecipes": 80,
@@ -264,7 +268,9 @@
 ,{
   "id": 5,
   "picture": "https://example.com/chef5.jpg",
-  "country": "Mexico",
+  "name": "Taco" ,
+  "chef_name": "Pablo"
+  ,
   "yearsOfExperience": 8,
   "numberOfRecipes": 50,
   "likes": 4500,
@@ -342,6 +348,8 @@
 ,{
   "id": 6,
   "picture": "https://example.com/chef6.jpg",
+  "chef_name": "Emily",
+
   "country": "Japan",
   "yearsOfExperience": 12,
   "numberOfRecipes": 60,
