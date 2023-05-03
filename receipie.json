@@ -51,11 +51,11 @@
   "id": 2,
   "chef_picture": "https://www.davisandco.it/wp-content/uploads/2019/02/Maria-Probst.jpg",
   "chef_name": "Maria",
-    "country": "Italy",
+    "country": "Mexico",
   "yearsOfExperience": 10,
   "numberOfRecipes": 75,
   "likes": 3500,
-  "description": "Chef specializing in authentic Italian cuisine",
+  "description": "Chef specializing in authentic Mexican cuisine",
   "rating": 4.3,
 "bannerImage": "https://example.com/chef2-banner.jpg",
   "recipes": [
@@ -381,7 +381,7 @@
   "yearsOfExperience": 12,
   "numberOfRecipes": 60,
   "likes": 6000,
-  "description": "Master of Japanese cuisine, specializing in sushi and sashimi",
+  "description": "Master of Mexican cuisine, specializing in sushi and sashimi",
   "rating": 4.9,
 
 "bannerImage": "https://example.com/chef6-banner.jpg",
