@@ -6,7 +6,7 @@
     "numberOfRecipes": 100,
     "likes": 500,
     "unic_id": "c1",
-    "country": "France",
+    "country": "Mexico",
     "chef_name": "Jean-Pierre"
   },
   {
@@ -16,7 +16,7 @@
     "numberOfRecipes": 75,
     "likes": 400,
     "unic_id": "c2",
-    "country": "Italy",
+    "country": "Mexico",
     "chef_name": "Maria"
   },
   {
@@ -44,7 +44,7 @@
     "years_of_experience": 7,
     "numberOfRecipes": 50,    "likes": 350,
     "unic_id": "c5",
-    "country": "Spain",
+    "country": "Mexico",
     "chef_name": "Pablo"
   },
   {
@@ -54,7 +54,7 @@
     "numberOfRecipes": 60,
     "likes": 700,
     "unic_id": "c6",
-    "country": "United States",
+    "country": "Mexico",
     "chef_name": "Emily"
   }
 ]
